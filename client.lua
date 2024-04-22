@@ -26,7 +26,7 @@ Citizen.CreateThread(function()
             end,
         })
 
-        local small = lib.zones.sphere({
+        local small[k] = lib.zones.sphere({
             coords = v.coords,
             radius = 1.0,
             debug = false,
